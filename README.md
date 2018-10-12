@@ -27,7 +27,7 @@ https://github.com/heejunghwang/movie-finder
 
 ### 2. Kubernetes 사용시
   ~~~ bash
-    # kubectl apply -f movie.yml
+    # kubectl apply -f movie-finder.yml
   ~~~
 
 
