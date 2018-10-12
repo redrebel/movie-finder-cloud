@@ -13,6 +13,8 @@ https://github.com/heejunghwang/movie-finder
     $ npm run build
     
     # docker 이미지를 생성한다.
+    # 나중에 이미지를 cloud에 push하려면 tag명이 좀 더 세분화되어야한다.
+    # 예) [docker-hub-id]/movie-finder
     $ docker build -t movie-finder .
     
     # docker 이미지를 실행(컨테이너 생성 실행)한다.
@@ -27,7 +29,14 @@ https://github.com/heejunghwang/movie-finder
 
 ### 2. Kubernetes 사용시
   ~~~ bash
-    # kubectl apply -f movie-finder.yml
+    # kubernetes 를 apply(적용) 한다.
+    $ kubectl apply -f movie-finder.yml
+
+    # service 를 확인한다.
+    $ kubectl get service
+
+    # 브라우져로 확인한다.
+    http://[EXTERNAL-IP]:8080
   ~~~
 
 
