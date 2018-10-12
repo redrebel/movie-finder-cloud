@@ -1,12 +1,12 @@
 본 프로젝트는 [movie-finder](https://github.com/heejunghwang/movie-finder)를 fork하여 cloud 버전으로 작업하였다.
 
 movie-finder에 대한 자세한 설명은 아래를 참조한다.
-# movie-finder
+## movie-finder
 > 오픈소스 검색엔진인 Elasticsearch 를 활용하여 '영화'를 검색을 하는 Vue.js 프로젝트  
 https://github.com/heejunghwang/movie-finder
 
 
-
+# 클라우드 버전으로 작업
 ### 1. Docker 이미지 파일 생성시
   ~~~ bash
     # vue 프로젝트를 빌드한다.
